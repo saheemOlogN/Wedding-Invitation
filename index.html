@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ayaan & Maryam — Wedding Invitation</title>
+  <meta name="description" content="With love and duas, join us to celebrate a beautiful beginning.">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <!-- Opening curtains: colors and timing can be changed in style.css. -->
+  <div class="entrance" id="entrance">
+    <div class="curtain left"></div><div class="curtain right"></div>
+    <div class="welcome"><span class="eyebrow">YOU ARE CORDIALLY INVITED</span><div class="seal">A <i>&</i> M</div><p>A beautiful beginning awaits.</p><button id="open">Open invitation <span>↗</span></button><small>WITH LOVE, BISMILLAH</small></div>
+  </div>
+  <main id="invitation" inert>
+    <header><a class="monogram" href="#home" aria-label="Back to beginning">A <i>&</i> M</a><span>A WEDDING INVITATION</span><button class="replay" id="replay" aria-label="Replay opening curtains">Replay opening ↺</button></header>
+    <section class="hero" id="home">
+      <div class="arch" aria-hidden="true"></div><div class="star star-one" aria-hidden="true">✧</div><div class="star star-two" aria-hidden="true">✧</div>
+      <div class="hero-content"><p class="arabic" lang="ar" dir="rtl">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p><p class="translation">In the name of Allah, the Most Merciful, the Most Compassionate</p><p class="eyebrow intro">WITH HIS BLESSINGS, WE BEGIN</p>
+      <h1><span data-groom>Ayaan</span><em>&</em><span data-bride>Maryam</span></h1>
+      <p class="hero-sub">Two hearts. One beautiful journey.</p><div class="date-line"><span class="line"></span><span id="hero-date"></span><span class="line"></span></div>
+      <a href="#blessing" class="scroll">SCROLL TO OUR CELEBRATION<span>↓</span></a></div>
+    </section>
+    <section class="blessing reveal" id="blessing"><span class="ornament">✧</span><p class="eyebrow">WRITTEN WITH LOVE</p><h2>A little moment.<br>A lifetime of togetherness.</h2><p id="invitation-copy"></p><div class="fine-rule"></div><p class="dua">May Allah bless this union with love,<br>mercy, and a lifetime of peace.</p></section>
+    <section class="countdown-section"><div class="reveal"><span class="eyebrow">EVERY MOMENT BRINGS US CLOSER</span><h2>Until we say Qubool Hai</h2><div class="countdown" role="timer" aria-label="Time until the wedding"><div><strong id="days">00</strong><span>DAYS</span></div><b>:</b><div><strong id="hours">00</strong><span>HOURS</span></div><b>:</b><div><strong id="minutes">00</strong><span>MINUTES</span></div><b>:</b><div><strong id="seconds">00</strong><span>SECONDS</span></div></div><p class="countdown-note" id="countdown-note">Counting down to our beautiful beginning.</p></div></section>
+    <section class="celebration reveal" id="celebration"><p class="eyebrow">SAVE A PLACE IN YOUR HEART</p><h2>Join our celebration</h2><div class="event"><div class="event-date"><span id="event-month"></span><strong id="event-day"></strong><span id="event-weekday"></span></div><div class="event-details"><p class="eyebrow" id="ceremony"></p><h3 id="venue"></h3><p id="address"></p><p class="event-time" id="event-time"></p><a class="map-link" id="map-link" target="_blank" rel="noopener noreferrer">View location <span>↗</span></a></div></div></section>
+    <footer class="reveal"><span class="ornament">☾</span><p id="closing"></p><div class="footer-names"><span data-groom>Ayaan</span> <i>&</i> <span data-bride>Maryam</span></div><small>WITH LOVE & DUAS</small></footer>
+  </main>
+  <noscript><p class="no-script">Please enable JavaScript to open this animated wedding invitation.</p></noscript>
+</body>
+</html>
